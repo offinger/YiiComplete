@@ -14,7 +14,7 @@
  */
 class YiiComplete extends CWidget
 {
-    // public $model;
+
     public $jsonUrl;
 
     public function run()
