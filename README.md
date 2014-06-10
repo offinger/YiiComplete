@@ -47,10 +47,6 @@ Usage
         "value": "Honda"
     },
     .
-    .
-    .
-    .
-    .
     etc
 ]
 ```
