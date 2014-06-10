@@ -6,8 +6,6 @@ This is Yii autocomplete extension using Jqueryui Autocomplete. It enables users
 Usage
 ===========
 
-Soon.....
-
 ### Requirements
 
 - Tested with Yii 1.1.14
@@ -22,15 +20,16 @@ Soon.....
 ### Usage
 
 - Paste the code into your view file
-
+```php
 <?php 
 	$this->widget('ext.YiiComplete.YiiComplete', array(
     'jsonUrl' => '<url with json data(http://www.site.com/controller/JsonAction)>'
 ));
 ?>
+```
 
 - Json data should be in format:
-
+```json
 [
     {
         "id": 1,
@@ -54,6 +53,7 @@ Soon.....
     .
     etc
 ]
+```
 
 - [If you want to style input field and results, please check this link! ](http://jqueryui.com/autocomplete/#remote)
 
